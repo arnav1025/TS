@@ -1,4 +1,5 @@
 install.packages("TSA")
+install.packages("forecasts")
 require(TSA)
 getwd()
 #read the csv file for the lab
