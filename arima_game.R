@@ -3,6 +3,7 @@
 
 require(TSA)
 require(forecast)
+install.packages(c("Rcpp", "tseries", "timeDate", "fracdiff"))
 
 stationary_AR2=function(phi) # function to check for stationarity conditions of an AR process based on phi
 {
